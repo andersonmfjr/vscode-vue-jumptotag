@@ -1,50 +1,50 @@
 {
-	"name": "vuejs-jumptotag",
-	"displayName": "Vue.js JumpToTag",
-	"description": "Extension for vscode that allows you to easily jump to script, template, and style tags in .vue files",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.32.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-		"onCommand:extension.jumptotemplate",
-		"onCommand:extension.jumptoscript",
-		"onCommand:extension.jumptostyle"
-	],
-	"main": "./src/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.jumptotemplate",
-				"title": "Jump to template tag"
-			},
-			{
-				"command": "extension.jumptoscript",
-				"title": "Jump to script tag"
-			},
-			{
-				"command": "extension.jumptostyle",
-				"title": "Jump to style tag"
-			}
-		]
-	},
-	"scripts": {
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "node ./node_modules/vscode/bin/test"
-	},
-	"devDependencies": {
-		"@types/mocha": "^2.2.42",
-		"@types/node": "^10.12.21",
-		"eslint": "^5.15.3",
-		"eslint-config-standard": "^12.0.0",
-		"eslint-plugin-import": "^2.16.0",
-		"eslint-plugin-node": "^8.0.1",
-		"eslint-plugin-promise": "^4.0.1",
-		"eslint-plugin-standard": "^4.0.0",
-		"typescript": "^3.3.1",
-		"vscode": "^1.1.28"
-	}
+  "name": "vuejs-jumptotag",
+  "displayName": "Vue.js JumpToTag",
+  "description": "Extension for vscode that allows you to easily jump to script, template, and style tags in .vue files",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.jumptotemplate",
+    "onCommand:extension.jumptoscript",
+    "onCommand:extension.jumptostyle"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.jumptotemplate",
+        "title": "Jump to template tag"
+      },
+      {
+        "command": "extension.jumptoscript",
+        "title": "Jump to script tag"
+      },
+      {
+        "command": "extension.jumptostyle",
+        "title": "Jump to style tag"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^10.12.21",
+    "eslint": "^5.15.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "typescript": "^3.3.1",
+    "vscode": "^1.1.28"
+  }
 }
