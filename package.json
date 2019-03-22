@@ -2,7 +2,7 @@
   "name": "vuejs-jumptotag",
   "displayName": "Vue.js JumpToTag",
   "description": "Extension for vscode that allows you to easily jump to script, template, and style tags in .vue files",
-  "version": "1.5.0",
+  "version": "0.9.0",
   "engines": {
     "vscode": "^1.32.0"
   },
