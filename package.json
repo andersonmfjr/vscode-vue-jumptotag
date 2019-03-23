@@ -1,9 +1,9 @@
 {
-  "name": "vuejs-jumptotag",
-  "displayName": "Vue.js JumpToTag",
+  "name": "vue-jumptotag",
+  "displayName": "Vue Jump to Tag",
   "publisher": "andersonmfjr",
   "icon": "images/jumptotag-icon.png",
-  "description": "Extension for vscode that allows you to easily jump to script, template, and style tags in .vue files",
+  "description": "Easily jump to script, template, and style tags in .vue files",
   "version": "1.3.0",
   "engines": {
     "vscode": "^1.32.0"
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/andersonmfjr/vscode-vuejs-jumptotag.git"
+    "url": "https://github.com/andersonmfjr/vscode-vue-jumptotag.git"
   },
   "keywords": [
     "jump",
