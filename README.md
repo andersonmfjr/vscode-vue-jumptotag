@@ -12,7 +12,7 @@ Vue Jump to Tag provides easily jump to script, template, and style tags in .vue
 
 -   `extension.jumptotemplate`: jump to template tag if it exists
 -   `extension.jumptoscript`: jump to script tag if it exists
--   `extension.jumptostyle`: jumpt to style tag if it exists
+-   `extension.jumptostyle`: jump to style tag if it exists
 
 We recommend setting keyboard shortcuts for ease of use (such as "Ctrl + 1", "Ctrl + 2", and "Ctrl + 3"). No default keybindings have been provided with this extension to avoid conflicts. Instructions for setting up your own keybindings are [here](https://code.visualstudio.com/docs/getstarted/keybindings).
 
