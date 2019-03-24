@@ -4,7 +4,7 @@
   "publisher": "andersonmfjr",
   "icon": "images/jumptotag-icon.png",
   "description": "Easily jump to script, template, and style tags in .vue files",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "engines": {
     "vscode": "^1.32.0"
   },
